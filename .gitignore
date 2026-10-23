@@ -1,0 +1,32 @@
+
+# Python environment
+.venv/
+__pycache__/
+*.py[cod]
+
+# Raw transaction datasets
+Data/Raw/
+
+# Processed transaction-level data
+Data/Processed/*.csv
+
+# Local databases
+database/*.db
+database/*.sqlite
+database/*.sqlite3
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Temporary files
+*.log
+.DS_Store
+Thumbs.db
+# Trained model
+Data/Processed/*.joblib
+
+# Power BI report (review before publishing)
+*.pbix
+desktop.ini
